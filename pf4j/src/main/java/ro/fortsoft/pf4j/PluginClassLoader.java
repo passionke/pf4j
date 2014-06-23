@@ -136,4 +136,8 @@ public class PluginClassLoader extends URLClassLoader {
         }
     }
 
+    private void close() throws IOException{
+
+    }
+
 }
